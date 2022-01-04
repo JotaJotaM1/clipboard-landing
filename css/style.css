@@ -4,6 +4,90 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Bai Jamjuree', sans-serif;
+  font-family: "Bai Jamjuree", sans-serif;
 }
-
+main {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerlogo {
+  background: url("../img/bg-header-mobile.png");
+  background-size: cover;
+  text-align: center;
+  width: 100vw;
+  height: 315px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containergeneral {
+  font-size: 15px;
+  padding: 0 30px;
+  height: auto;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+h2 {
+  margin-bottom: 15px;
+}
+.parraftwo {
+  margin-bottom: 60px;
+}
+.containerbutton {
+  margin-bottom: 7rem;
+}
+.computer,
+.devices {
+  width: 320px;
+}
+p {
+  line-height: 20px;
+  font-size: 13px;
+  padding: 0 2rem;
+  color: hsl(201, 11%, 66%);
+}
+h1,
+h2,
+h3 {
+  color: hsl(210, 10%, 33%);
+}
+.buttonios {
+  background-color: hsl(171, 66%, 44%);
+  color: white;
+  border-style: none;
+  height: 2.5rem;
+  width: 15rem;
+  border-radius: 2rem;
+  margin: 35px 0 20px;
+  box-shadow: 1px 5px 14px -3px hsl(171, 66%, 18%);
+  font-weight: bold;
+}
+.buttonmac {
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+  border-style: none;
+  height: 2.5rem;
+  width: 15rem;
+  border-radius: 2rem;
+  box-shadow: 1px 5px 14px -3px hsl(233, 74%, 25%);
+  font-weight: bold;
+}
+h3 {
+  margin: 40px 0 10px;
+}
+.parraftwosix {
+  margin-bottom: 60px;
+}
+.access {
+  margin-top: 120px;
+}
