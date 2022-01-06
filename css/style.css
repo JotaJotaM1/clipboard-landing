@@ -25,6 +25,8 @@ main {
   align-items: center;
 }
 .containergeneral {
+  display: flex;
+  flex-direction: column;
   font-size: 15px;
   padding: 0 30px;
   height: auto;
