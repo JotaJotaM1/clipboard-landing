@@ -104,13 +104,17 @@ button{
   padding: 5%;
 }
 .divWorkflow{
-  padding: 10%;
+  padding: 15% 0 10% 0;
+}
+.contIcono{
+  padding-bottom: 10%;
 }
 .section_logos_companies{
   padding: 5%;
+  
 }
 .logo_company{
-  padding: 10% 0% 10% 0%;
+  padding: 20% 0% 20% 0%;
 }
 .clipboardIos{
   padding-top: 15%;
@@ -147,7 +151,7 @@ ul{
   display: flex;
   width: 40%;
   justify-content: space-between; 
-  padding: 10% 0 10% 0;
+  padding: 10% 0 20% 0;
 }
 @media screen and (min-width: 375px) {
  
