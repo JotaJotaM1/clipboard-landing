@@ -100,6 +100,20 @@ button{
   cursor: pointer;
 }
 
+.workflow{
+  padding: 5%;
+}
+.divWorkflow{
+  padding: 10%;
+}
+.section_logos_companies{
+  padding: 5%;
+}
+.logo_company{
+  padding: 10% 0% 10% 0%;
+}
+
+
 @media screen and (min-width: 375px) {
  
 }
