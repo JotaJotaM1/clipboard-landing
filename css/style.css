@@ -125,7 +125,30 @@ button{
 footer{
   background-color:rgb(243, 243, 243);
 }
-
+.divFooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.iconFooter{
+  padding: 15%;
+}
+li{
+  list-style: none;
+  text-align: center;
+}
+ul{
+  line-height: 40px;
+  font-size: 13px;
+  padding: 0 2rem;
+  color: hsl(202, 5%, 46%);
+}
+.iconosSocial{
+  display: flex;
+  width: 40%;
+  justify-content: space-between; 
+  padding: 10% 0 10% 0;
+}
 @media screen and (min-width: 375px) {
  
 }
