@@ -112,7 +112,19 @@ button{
 .logo_company{
   padding: 10% 0% 10% 0%;
 }
+.clipboardIos{
+  padding-top: 15%;
+}
+.clipboardIos h2{
+  padding: 10% 10% 0 10%;
+}
+.PdelClipboard{
+  padding: 0 10% 0 10%;
+}
 
+footer{
+  background-color:rgb(243, 243, 243);
+}
 
 @media screen and (min-width: 375px) {
  
