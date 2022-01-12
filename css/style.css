@@ -38,11 +38,13 @@ main {
   align-items: center;
 }
 h1 {
+  padding: 0 40px;
   font-weight: bold;
   margin-bottom: 25px;
 }
 h2 {
   margin-bottom: 15px;
+  padding: 0 40px;
 }
 .parraftwo {
   margin-bottom: 60px;
@@ -153,10 +155,63 @@ ul{
   justify-content: space-between; 
   padding: 10% 0 20% 0;
 }
-@media screen and (min-width: 375px) {
- 
+@media screen and (min-width: 375px) { 
 }
 
 @media screen and (min-width: 1440px) {
-  main{background-color: red;}
+  p{
+  font-size: 16px;
+  padding: 0 ;
+  }
+  h1{
+    font-size: 35px;
+  }
+  .textoH1{
+    padding:0 25rem;
+  }
+  .containerbutton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+  .buttonmac{
+    margin: 35px 20px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  .parraftwo{
+    padding: 0 380px;
+  }
+  .contenedorpcarticle{
+    display: flex;
+    justify-content: space-between;
+  }
+  .contenedorimgpc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .articuloimgpc{
+    text-align: left;
+    width: 350px;
+    margin-left: 70px;
+  }
+  .computer{
+    height: 450px;
+    width: 650px;
+  }
+  .textoh3{
+    font-size: 13px;
+    padding-right: 70px;
+  }
+
+  .devices{
+    height: 450px;
+    width: 650px;
+  }
+  .parraftwosix{
+    padding: 0 23rem;
+  }
+
 }
