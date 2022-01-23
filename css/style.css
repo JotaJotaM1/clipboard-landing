@@ -16,7 +16,7 @@ main {
   background: url("../img/bg-header-mobile.png");
   background-size: cover;
   /*usando box shadow para que la imagen tenga efecto similar al fade*/
-  box-shadow: inset 0px -20px 50px 10px #FFF;
+  box-shadow: inset 0px -20px 50px 10px #fff;
   text-align: center;
   width: 100vw;
   height: 315px;
@@ -28,7 +28,7 @@ main {
   display: flex;
   flex-direction: column;
   font-size: 15px;
-  padding: 0 30px;
+  margin: 0 30px;
   height: auto;
   width: 100vw;
   text-align: center;
@@ -71,8 +71,8 @@ h3 {
   background-color: hsl(171, 66%, 44%);
   color: white;
   border-style: none;
-  height: 2.5rem;
-  width: 15rem;
+  height: 3rem;
+  width: 12rem;
   border-radius: 2rem;
   margin: 35px 0 20px;
   box-shadow: 1px 5px 14px -3px hsl(171, 66%, 18%);
@@ -82,8 +82,8 @@ h3 {
   background-color: hsl(233, 100%, 69%);
   color: white;
   border-style: none;
-  height: 2.5rem;
-  width: 15rem;
+  height: 3rem;
+  width: 12rem;
   border-radius: 2rem;
   box-shadow: 1px 5px 14px -3px hsl(233, 74%, 25%);
   font-weight: bold;
@@ -98,120 +98,182 @@ h3 {
   margin-top: 120px;
 }
 
-button{
+button {
   cursor: pointer;
 }
 
-.workflow{
+.workflow {
   padding: 5%;
 }
-.divWorkflow{
+.divWorkflow {
   padding: 15% 0 10% 0;
 }
-.contIcono{
+.contIcono {
   padding-bottom: 10%;
 }
-.section_logos_companies{
+.section_logos_companies {
   padding: 5%;
-  
 }
-.logo_company{
+.logo_company {
   padding: 20% 0% 20% 0%;
 }
-.clipboardIos{
+.clipboardIos {
   padding-top: 15%;
 }
-.clipboardIos h2{
+.clipboardIos h2 {
   padding: 10% 10% 0 10%;
 }
-.PdelClipboard{
+.PdelClipboard {
   padding: 0 10% 0 10%;
 }
 
-footer{
-  background-color:rgb(243, 243, 243);
+footer {
+  background-color: rgb(243, 243, 243);
 }
-.divFooter{
+.divFooter {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.iconFooter{
+.iconFooter {
   padding: 15%;
 }
-li{
+li {
   list-style: none;
   text-align: center;
 }
-ul{
+ul {
   line-height: 40px;
   font-size: 13px;
   padding: 0 2rem;
   color: hsl(202, 5%, 46%);
 }
-.iconosSocial{
+.iconosSocial {
   display: flex;
   width: 40%;
-  justify-content: space-between; 
+  justify-content: space-between;
   padding: 10% 0 20% 0;
 }
-@media screen and (min-width: 375px) { 
+@media screen and (min-width: 375px) {
 }
 
-@media screen and (min-width: 1440px) {
-  p{
-  font-size: 16px;
-  padding: 0 ;
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 16px;
+    padding: 0;
   }
-  h1{
+  h1 {
     font-size: 35px;
   }
-  .textoH1{
-    padding:0 25rem;
+  .textoH1 {
+    padding: 0 25rem;
   }
-  .containerbutton{
+  .containerbutton {
     display: flex;
     justify-content: center;
     margin-bottom: 5rem;
   }
-  .buttonmac{
+  .buttonmac {
     margin: 35px 20px;
   }
-  h2{
+  h2 {
     font-size: 30px;
   }
-  .parraftwo{
+  .parraftwo {
     padding: 0 380px;
   }
-  .contenedorpcarticle{
+  .contenedorpcarticle {
     display: flex;
     justify-content: space-between;
   }
-  .contenedorimgpc{
+  .contenedorimgpc {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .articuloimgpc{
+  .articuloimgpc {
     text-align: left;
     width: 350px;
     margin-left: 70px;
   }
-  .computer{
+  .computer {
     height: 450px;
     width: 650px;
   }
-  .textoh3{
+  .textoh3 {
     font-size: 13px;
     padding-right: 70px;
   }
 
-  .devices{
+  .devices {
     height: 450px;
     width: 650px;
   }
-  .parraftwosix{
+  .parraftwosix {
     padding: 0 23rem;
   }
-
+  .workflow {
+    padding: 0;
+  }
+  .divWorkflow {
+    width: 400px;
+    padding: 0;
+  }
+  .titleworkflowtwo {
+    font-size: 30px;
+  }
+  .titleArtWF {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  .pArtWF {
+    padding: 0 30px;
+  }
+  .containerGeneralWorkflow {
+    display: flex;
+    padding-top: 100px;
+  }
+  .icons {
+    width: 50px;
+    height: 40px;
+  }
+  .contIcono {
+    padding: 0;
+  }
+  .section_logos_companies {
+    width: 1200px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .logo_company {
+    padding: 10% 0 0 0;
+  }
+  .clipboardIos {
+    padding-top: 0;
+  }
+  .PdelClipboard {
+    padding: 0 17%;
+  }
+  footer {
+    margin: 0 30px 20px 30px;
+  }
+  .divFooter {
+    height: 150px;
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-around;
+  }
+  .iconFooter {
+    padding: 0;
+  }
+  .iconosSocial {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .containerList > li {
+    display: flex;
+  }
 }
