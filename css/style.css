@@ -256,12 +256,12 @@ ul {
     padding: 0 17%;
   }
   footer {
-    margin: 0 30px 20px 30px;
+    margin: 0 30px;
   }
   .divFooter {
     height: 150px;
     display: flex;
-    flex-direction: unset;
+    flex-direction:row;
     justify-content: space-around;
   }
   .iconFooter {
@@ -273,7 +273,10 @@ ul {
     justify-content: space-between;
     padding: 0;
   }
-  .containerList > li {
+  .containerList > .listNavFooter {
     display: flex;
+    justify-content: space-between;
+    width: 450px;
+    padding: 0;
   }
 }
